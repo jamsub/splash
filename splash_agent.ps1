@@ -10,8 +10,8 @@ if (!(Test-Path -Path $installDirectory -PathType Container)) {
 }
 Set-Location -path $installDirectory
 
-# Define download URL for Splashtop Agent
+#download Splashtop Agent
 
- Invoke-WebRequest -Uri $downloadUrl -UseBasicParsing
-
-streamer.exe prevercheck /s /i dcode=YS2X5WTKSHS2,confirm_d=0,hidewindow=1
+ Invoke-WebRequest -Uri $downloadUrl -UseBasicParsing -OutFile streamer.exe
+#Install Splashtop Agent
+.\streamer.exe prevercheck /s /i dcode=YS2X5WTKSHS2,confirm_d=0,hidewindow=1
