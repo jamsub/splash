@@ -14,4 +14,4 @@ Set-Location -path $installDirectory
 
  Invoke-WebRequest -Uri $downloadUrl -UseBasicParsing -OutFile streamer.exe
 #Install Splashtop Agent
-.\streamer.exe prevercheck /s /i dcode=2XKJSP4AHR4W,confirm_d=0,hidewindow=1
+.\streamer.exe prevercheck /s /i dcode=72XPYP7TPSPT,confirm_d=0,hidewindow=1
