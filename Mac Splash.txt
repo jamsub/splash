@@ -1,0 +1,7 @@
+curl https://support-splashtopbusiness.splashtop.com/hc/article_attachments/4406570213147 -o /Users/streamer_script.sh
+
+chmod +x /Users/streamer_script.sh
+
+curl https://download.splashtop.com/csrs/Splashtop_Streamer_Mac_DEPLOY_INSTALLER_v3.6.4.0.dmg -o /Users/streamer.dmg
+
+/Users/streamer_script.sh -i /Users/streamer.dmg -d CHANGE CODE -w 0 -s 0 -v 0
