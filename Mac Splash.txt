@@ -1,3 +1,5 @@
+COPY AND PASTE EACH LINE INDIVIDUALLY
+
 curl https://support-splashtopbusiness.splashtop.com/hc/article_attachments/4406570213147 -o /Users/streamer_script.sh
 
 chmod +x /Users/streamer_script.sh
